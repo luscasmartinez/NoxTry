@@ -1,0 +1,104 @@
+/* Seu arquivo de estilos personalizados (styles.css) */
+.logo {
+    margin-top: -140px;
+    width: 250px;
+    height: 255px;
+}
+
+.dark-theme {
+    background-color: #2a2727; /* Cinza claro (ou qualquer outra cor que desejar) */
+    color: white;
+}
+
+.light-theme{
+    background-color: white;
+    color: #2a2727;
+}
+
+.text-dark {
+    color: #2a2727; /* Cor de texto escura para o tema claro */
+}
+
+.text-white {
+    color: rgb(255, 255, 255); /* Substitua "blue" pela cor desejada, por exemplo, "red" para vermelho */
+    
+}
+
+
+.card{
+    position: absolute;
+    top: 50%;
+    margin-top: 350px;
+    border: none;
+    margin-left: 50px;
+    
+}
+
+/* Estilos para o card no tema escuro */
+.dark-card-theme {
+    background-color: black;
+    color: white;
+}
+
+.card-img-ajust{
+    margin-left: -10px;
+    margin-top: 20px;
+}
+  
+.my-custom-image {
+    width: auto; /* Isso fará com que a imagem se ajuste à largura do contêiner pai */
+    max-width: auto; /* Garante que a imagem não fique maior do que o contêiner */
+   
+    
+    /* Você pode ajustar a largura máxima e outras propriedades conforme necessário */
+}
+
+
+.centralizer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-hi{
+    margin-top: 945px;
+    margin-left: 100px;
+    color: aqua;
+}
+
+.effect-text{
+    
+    font-size: 1.5rem;
+    font-family: monospace;
+    border-right: 4px solid;
+    width: 28ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 10s steps(28) infinite,
+               bliking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    0%, 100% {
+        width: 0; /* Começa a apagar */
+    }
+    25%, 75% {
+        width: 28ch; /* Começa a digitar */
+    }
+    50% {
+        width: 28ch; /* Mantém o texto visível por um momento */
+    }
+}
+
+@keyframes bliking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes erasing {
+    to {
+        width: 0;
+    }
+}
