@@ -16,7 +16,7 @@
 }
 
 .text-dark {
-    color: #2a2727; /* Cor de texto escura para o tema claro */
+    color: #2a2727; /* Cor de texto escura para o tema claro. */
 }
 
 .text-white {
@@ -25,10 +25,10 @@
 }
 
 
-.card{
+.mb-3{
     position: absolute;
     top: 50%;
-    margin-top: 350px;
+    margin-top: 355px;
     border: none;
     margin-left: 50px;
     
